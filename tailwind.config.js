@@ -8,11 +8,14 @@ module.exports = {
       fontFamily: {
         lato: ['Lato', 'sans-serif'],
       },
-      animation:{
+      animation: {
         spinOnce: 'spin 1s ease-in-out'
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss'),
+    require('autoprefixer'),
+  ],
 }
 
