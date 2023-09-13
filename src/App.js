@@ -8,7 +8,7 @@ import RootLayout from "./pages/Root";
 
 const router = createBrowserRouter([
   {
-    path: "/", element: <RootLayout />,
+    path: "/my-portfolio", element: <RootLayout />,
     children: [
       { index: true, element: <Home /> },
       { path: "projects", element: <Projects /> },
