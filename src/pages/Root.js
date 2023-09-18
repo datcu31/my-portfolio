@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 
 function RootLayout() {
     return (
-        <div className="flex flex-col items-center justify-between min-h-screen m-auto font-lato">
+        <div className="flex flex-col mx-2 p-2 items-center justify-between min-h-screen font-lato">
             <NavigationBar />
             <main>
                 <Outlet />

@@ -68,3 +68,10 @@
 .info-text-container {
   @apply pl-6 border-black border-l-[1px] p-3;
 }
+
+.form-label {
+  @apply placeholder:italic placeholder:text-slate-400 
+  border-b-[1px] border-slate-300 px-4 py-1 shadow-sm 
+  focus:outline-none focus:border-b-[1px]
+focus:border-black m-2 w-full;
+}
