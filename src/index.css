@@ -17,7 +17,7 @@
 /* HOME PAGE */
 
 .social-pic {
-  @apply h-[10vh] md:h-[12vh] lg:h-[15vh] hover:opacity-50 hover:animate-spinOnce transition-all;
+  @apply h-[10vh] md:h-[12vh] lg:h-[12vh] hover:opacity-50 hover:animate-spinOnce transition-all;
 }
 
 .hand {
@@ -74,4 +74,10 @@
   border-b-[1px] border-slate-300 px-4 py-1 shadow-sm 
   focus:outline-none focus:border-b-[1px]
 focus:border-black m-2 w-full;
+}
+
+/* PROJECTS PAGE */
+
+.a-btn {
+  @apply py-1 px-2 transition-all m-2 ring-2 ring-black rounded-2xl lg:text-xl hover:opacity-40;
 }

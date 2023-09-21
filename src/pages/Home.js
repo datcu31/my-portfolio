@@ -8,7 +8,7 @@ function Home() {
             <div>
                 <a href="https://www.instagram.com/datcu31/" target="_blank">
                     <img
-                        className="rounded-full h-[35vh] lg:h-[50vh] shadow-lg shadow-gray-400 
+                        className="rounded-full h-[35vh] lg:h-[40vh] shadow-lg shadow-gray-400 
                        hover:shadow-gray-500 lg:shadow-xl lg:shadow-gray-400 hover:-translate-y-2 
                     transition-all"
                         src={ProfilePic}>
