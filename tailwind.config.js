@@ -3,6 +3,7 @@ module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
+  darkMode: "class",
   theme: {
     extend: {
       fontFamily: {
@@ -11,6 +12,13 @@ module.exports = {
       animation: {
         spinOnce: 'spin 1s ease-in-out'
       },
+      colors: {
+        'day': '#F8FDCF',
+        'night': '#183D3D',
+        'day-txt': '#183D3D',
+        'night-txt': '#F8FDCF',
+        'placeholder-txt': '#C5C9A5',
+      }
     },
   },
   plugins: [

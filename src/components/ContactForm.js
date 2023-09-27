@@ -159,7 +159,9 @@ function ContactForm() {
                             className="form-label"></textarea>
                     </label>
                 </div>
-                <button className="rounded-full transition-all px-5 py-2 bg-slate-200 hover:bg-slate-300 hover:-translate-y-1 active:translate-y-0"><p>{handleButtonText()}</p></button>
+                <button className="rounded-full transition-all px-5 py-2 bg-[#B0D9B1] hover:bg-[#8abd91] dark:bg-[#618264] dark:hover:bg-[#7C9070] hover:-translate-y-1 active:translate-y-0">
+                    <p>{handleButtonText()}</p>
+                </button>
             </Form>
         </div>
 

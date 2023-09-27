@@ -14,10 +14,15 @@
   }
 }
 
+/* NAVIGATION BAR */
+.bottom-border {
+  @apply border-b-[1px] border-day-txt dark:border-night-txt;
+}
+
 /* HOME PAGE */
 
 .social-pic {
-  @apply h-[10vh] md:h-[12vh] lg:h-[12vh] hover:opacity-50 hover:animate-spinOnce transition-all;
+  @apply h-[10vh] md:h-[12vh] lg:h-[12vh] hover:opacity-70 hover:animate-spinOnce transition-all fill-day-txt dark:fill-night-txt;
 }
 
 .hand {
@@ -62,22 +67,22 @@
 }
 
 .info-pic {
-  @apply h-[5vh] mr-5;
+  @apply h-[5vh] mr-5 fill-day-txt dark:fill-night-txt;
 }
 
 .info-text-container {
-  @apply pl-6 border-black border-l-[1px] p-3;
+  @apply pl-6 border-day-txt dark:border-night-txt border-l-[1px] p-3;
 }
 
 .form-label {
-  @apply placeholder:italic placeholder:text-slate-400 
-  border-b-[1px] border-slate-300 px-4 py-1 shadow-sm 
+  @apply placeholder:italic placeholder:text-placeholder-txt 
+  border-b-[1px] border-placeholder-txt px-4 py-1 shadow-sm 
   focus:outline-none focus:border-b-[1px]
-focus:border-black m-2 w-full;
+focus:border-gray-400 m-2 w-full bg-transparent;
 }
 
 /* PROJECTS PAGE */
 
 .a-btn {
-  @apply py-1 px-2 transition-all m-2 ring-2 ring-black rounded-2xl lg:text-xl hover:opacity-40;
+  @apply py-1 px-2 transition-all m-2 ring-2 ring-day-txt dark:ring-night-txt rounded-2xl lg:text-xl hover:opacity-60;
 }
