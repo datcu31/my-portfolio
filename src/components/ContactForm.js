@@ -103,7 +103,7 @@ function ContactForm() {
     }
 
     return (
-        <div className="flex flex-col">
+        <div className="flex flex-col animate-moveInUp md:animate-moveInLeft">
             <p className="font-semibold text-xl">Message Me</p>
             <Form onSubmit={handleSubmit} className="mt-2">
                 <div className="flex flex-col md:flex-row md:space-x-2 lg:space-x-3">

@@ -2,7 +2,7 @@ function ContactInfo() {
     const email = 'datcu31@gmail.com';
 
     return (
-        <div>
+        <div className="animate-moveInUp md:animate-moveInRight">
             <p className="font-semibold text-xl">Contact Informations</p>
             <p className="font-light mt-2">Let's connect and build something awsome together!</p>
             <div className="flex flex-col justify-center items-start mt-7">
