@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.83d62fdd.css",
-    "main.js": "/my-portfolio/static/js/main.b54249d3.js",
+    "main.css": "/my-portfolio/static/css/main.b72c9028.css",
+    "main.js": "/my-portfolio/static/js/main.515403aa.js",
     "static/js/496.68e4681f.chunk.js": "/my-portfolio/static/js/496.68e4681f.chunk.js",
     "static/media/natours-mockup.png": "/my-portfolio/static/media/natours-mockup.5f09240e903241141dda.png",
     "static/media/ebikes-mockup.png": "/my-portfolio/static/media/ebikes-mockup.99e965dea9141713a0d6.png",
@@ -12,12 +12,12 @@
     "static/media/reduxcart-mockup.png": "/my-portfolio/static/media/reduxcart-mockup.37d3ce4e2f5e87e39f89.png",
     "index.html": "/my-portfolio/index.html",
     "static/media/index.cjs": "/my-portfolio/static/media/index.cd351d7c31d0d3fccf96.cjs",
-    "main.83d62fdd.css.map": "/my-portfolio/static/css/main.83d62fdd.css.map",
-    "main.b54249d3.js.map": "/my-portfolio/static/js/main.b54249d3.js.map",
+    "main.b72c9028.css.map": "/my-portfolio/static/css/main.b72c9028.css.map",
+    "main.515403aa.js.map": "/my-portfolio/static/js/main.515403aa.js.map",
     "496.68e4681f.chunk.js.map": "/my-portfolio/static/js/496.68e4681f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.83d62fdd.css",
-    "static/js/main.b54249d3.js"
+    "static/css/main.b72c9028.css",
+    "static/js/main.515403aa.js"
   ]
 }
