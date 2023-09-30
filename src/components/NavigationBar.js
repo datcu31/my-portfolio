@@ -5,7 +5,7 @@ function NavigationBar({ theme, handleThemeSwitch }) {
     return (
         <header className="m-4 p-2">
             <nav>
-                <ul className="flex gap-8 items-center justify-center sm:gap-20 md:gap-28">
+                <ul className="flex max-[400px]:gap-3 gap-8 items-center justify-center sm:gap-20 md:gap-28">
                     <li className="transition hover:-translate-y-1">
                         <NavLink to="/my-portfolio" className={({ isActive }) => (isActive ? "bottom-border" : "")} end>Home</NavLink>
                     </li>
