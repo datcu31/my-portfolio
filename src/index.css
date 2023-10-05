@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -22,7 +22,7 @@
 /* HOME PAGE */
 
 .social-pic {
-  @apply h-[10vh] md:h-[12vh] lg:h-[12vh] hover:opacity-70 hover:animate-spinOnce transition-all fill-day-txt dark:fill-night-txt;
+  @apply h-[8vh] md:h-[10vh] hover:opacity-70 hover:animate-spinOnce transition-all fill-day-txt dark:fill-night-txt;
 }
 
 /* CONTACT PAGE */

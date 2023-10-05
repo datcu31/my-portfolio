@@ -1,4 +1,5 @@
 import ProfilePic from "../img/Profile.jpg";
+import { info } from "../info/Info";
 
 function Home() {
     return (
@@ -13,12 +14,22 @@ function Home() {
                     </img>
                 </a>
             </div>
-            <div className="flex flex-col m-2 p-2 animate-moveInUp lg:animate-moveInRight">
+            <div className="flex flex-col m-2 p-2 md:gap-1 lg:gap-3 animate-moveInUp lg:animate-moveInRight">
                 <div className="flex flex-col justify-center items-center lg:items-start select-none">
                     <h1>Hi, I'm Datcu<span className="animate-wave origin-[70%_70%] inline-block ml-2">✋🏽</span></h1>
                     <h2>I'm a Junior Frontend Developer</h2>
                 </div>
-                <div className="flex justify-center gap-6 lg:gap-14 mt-8">
+                <div>
+                    <ul>
+                        {info.miniBio.map((des, index) => (
+                            <li key={index} className="flex flex-row justify-center items-center p-2 gap-1 md:gap-2">
+                                <span className="text-xl md:text-2xl">{des.emoji}</span>
+                                <p className="font-light md:text-xl">{des.text}</p>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+                <div className="flex justify-center gap-4 lg:gap-8">
                     <a href="https://github.com/datcu31" target="_blank">
                         <svg className="social-pic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
                             <path d="M 25 2 C 12.311335 2 2 12.311335 2 25 C 2 37.688665 12.311335 48 25 48 C 37.688665 48 48 37.688665 48 25 C 48 12.311335 37.688665 

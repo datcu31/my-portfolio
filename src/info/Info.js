@@ -43,5 +43,23 @@ export const info = {
             source: "https://github.com/datcu31/Redux-books-cart",
             image: mockup6,
         }
+    ],
+    miniBio: [
+        {
+            emoji: '🌎',
+            text: 'based in RO'
+        },
+        {
+            emoji: '🚀',
+            text: 'open to relocate'
+        },
+        {
+            emoji: '💼',
+            text: 'looking for employment'
+        },
+        {
+            emoji: '📧',
+            text: 'datcu31@gmail.com'
+        }
     ]
 }
