@@ -33,7 +33,7 @@ export const info = {
         },
         {
             title: "Quotes",
-            live: "https://datcu31.github.io/quotes",
+            live: "https://datcu31.github.io/Quote-project/",
             source: "https://github.com/datcu31/Quote-project",
             image: mockup5,
         },
